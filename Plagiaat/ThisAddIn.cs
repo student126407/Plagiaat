@@ -17,7 +17,7 @@ namespace Plagiaat
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
-            l
+            
         }
 
         #region VSTO generated code
