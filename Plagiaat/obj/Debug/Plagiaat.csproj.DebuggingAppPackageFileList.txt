@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\PlagiaatManifest.xml
+C:\Users\Dave\Documents\Visual Studio 2015\Projects\Plagiaat\Plagiaat\bin\Debug\Plagiaat.debugapp
