@@ -10,3 +10,4 @@ C:\Users\Dave\Documents\Visual Studio 2015\Projects\Plagiaat\Plagiaat\bin\Debug\
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\Plagiaat\Plagiaat\bin\Debug\roslyn\vbc.exe
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\Plagiaat\Plagiaat\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\Plagiaat\Plagiaat\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Dave\documents\visual studio 2015\Projects\Plagiaat\Plagiaat\obj\Debug\Plagiaat.csprojResolveAssemblyReference.cache

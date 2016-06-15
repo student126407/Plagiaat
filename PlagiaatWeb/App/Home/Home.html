@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title></title>
     <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
-
     <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
     <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
 
@@ -22,19 +21,37 @@
 <body>
     <div id="content-header">
         <div class="padding">
-            <h1>Welcome</h1>
+            <h1>Welkom</h1>
         </div>
     </div>
     <div id="content-main">
         <div class="padding">
-            <p><strong>Add home screen content here.</strong></p>
-            <p>For example:</p>
-            <button id="get-data-from-selection">Get data from selection</button>
+            <p><strong>Plagiaat scanner</strong></p>
+            <p>Onedrive bestand</p>
+            <input class="bestand" type="text" readonly="readonly" value="Beginner.docx">
+            <p>Selecteer bestand</p>
+            <input type="file" name="bestand2"><br/><br/>
+            <textarea class="plagiaat tekst" disabled></textarea>
+            <br/>
+            <div id="container">
+                <div id="bar-1" class="bar-main-container azure">
+                    <div class="wrap">
+                        <div class="bar-percentage"><h4 id="label">0%</h4></div>
+                        <div class="bar-container">
+                            <div class="bar" id="myBar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="buttons">
+                    <button onclick="move()" id="Scan">Scannen</button>
+                    <button class="afsluiten" id="afsluiten">Afsluiten</button>
+                </div>
+            
+                <p style="margin-top: 50px;">
 
-            <p style="margin-top: 50px;">
-                <a target="_blank" href="https://go.microsoft.com/fwlink/?LinkId=276812">Find more samples online...</a>
-            </p>
-        </div>
+                </p>
+            </div>
     </div>
 </body>
 </html>

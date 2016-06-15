@@ -8,6 +8,14 @@
         $(document).ready(function () {
             app.initialize();
 
+            $.get("https://plagiaat-student126407.c9users.io/plagiaat.php", function (data) {
+                console.log(data);
+            })
+            .fail(function (data) {
+                console.log(data);
+            });
+
+           
             $('#get-data-from-selection').click(getDataFromSelection);
         });
     };
@@ -25,3 +33,4 @@
         );
     }
 })();
+
